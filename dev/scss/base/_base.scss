@@ -65,4 +65,10 @@ a {
   font-family: $main-font;
   font-weight: 700;
   outline: none;
+  cursor: pointer;
+  transition: color,background-color .5s;
+  &:hover{
+    background-color:#23a6d5 ;
+    color: #fff;
+  }
 }
